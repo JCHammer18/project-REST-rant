@@ -6,17 +6,17 @@ router.get('/', (req, res) => {
 })
 
 let places = [{
-    name: 'H-Thai-ML',
-    city: 'Seattle',
-    state: 'WA',
-    cuisines: 'Thai, Pan-Asian',
-    pic: 'http://placekitten.com/250/250'
-  }, {
+  name: 'H-Thai-ML',
+  city: 'Seattle',
+  state: 'WA',
+  cuisines: 'Thai, Pan-Asian',
+  pic: '/images/h-thai-ml-tables.png'
+}, {
     name: 'Coding Cat Cafe',
     city: 'Phoenix',
     state: 'AZ',
     cuisines: 'Coffee, Bakery',
-    pic: 'http://placekitten.com/250/250'
-  }]
-  
+    pic: '/images/coffee-cat.jpg'
+}]
+
 module.exports = router
