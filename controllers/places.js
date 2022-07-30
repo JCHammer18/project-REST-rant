@@ -64,7 +64,7 @@ router.delete('/:id', (req, res) => {
     res.redirect('/places')
   }
 })
-
+//Delete route
 router.put('/:id', (req, res) => {
   let id = Number(req.params.id)
   if (isNaN(id)) {
@@ -77,7 +77,6 @@ router.put('/:id', (req, res) => {
       res.redirect(`/places/${id}`)
   }
 })
-
 
 
 router.get('/', (req, res) => {
