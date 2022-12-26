@@ -1,3 +1,9 @@
+const mongoose = require('mongoose')
+
+const placeSchema = new mongoose.Schema()
+
+
+
 module.exports = [{
     name: 'H-Thai-ML',
     city: 'Seattle',
