@@ -1,20 +1,22 @@
-const React = require('react')
-const Def = require('./default')
+const React = require ('react')
+const Def = require ('./default')
 
+//Adding 404 page view
 function error404 () {
-    return (
-      <Def>
-          <main>
+return (
+    <Def>
+        <main>
+            <h1>404 : PAGE NOT FOUND</h1>
+            <div>
+            <img src ="/images/error-404.gif" alt="error404" />
+            </div>
+            <p>Oops, sorry, we can't find this page!</p>
           
-              <h1>404: PAGE NOT FOUND</h1>
-              <p>Oops, sorry, we can't find this page!</p>
-              <img src="https://memegenerator.net/img/images/14741489.jpg" alt="Chia Fruit Shake" />
-          </main>
-      </Def>
-    )
-  }
-  
+        </main>
+    </Def>
+)
 
+}
+
+//code to export from error404
 module.exports = error404
-
-
